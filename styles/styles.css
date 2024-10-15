@@ -1,0 +1,206 @@
+/*Global Styles*/ 
+/* colors */ 
+/*primary-color: 
+#FFC5C5 (soft pink) 
+secondary-color: 
+#F7F7F7 (light gray) 
+accent-color: #8B9467 
+(muted gold) 
+background-color: 
+#FFFFFF (white) 
+/* typography */ 
+/*font-family: Open Sans 
+font-sizes: 
+header: 24px 
+body: 18px 
+footer: 14px 
+font-weights: 
+header: 600 
+body: 400 
+footer: 300 
+/* layout */ 
+/*max-width: 1200px 
+margin: 40px auto 
+padding: 20px*/
+/* responsive design */ 
+@media (max-width: 768px)
+
+{ /* mobile styles */ } 
+@media (max-width: 1024px) 
+{ /* tablet styles */ }
+
+/*Index.html Styles*/
+/* header */ 
+.header { 
+    background-color: primary-color; 
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+/* main */ 
+.main { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px; 
+} 
+/* section */ 
+.section { 
+    background-color: secondary-color; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+/* button */ 
+.button { 
+    background-color: accent-color; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+} 
+/* footer */ 
+.footer { 
+    background-color: secondary-color; 
+    height: 60px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 14px; font-weight: 300; 
+} 
+*About.html Styles* 
+/* section */ 
+.section { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px; 
+} 
+/* image */ 
+.image { 
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    margin: 20px; } 
+    /* bio */ 
+    .bio { 
+        font-size: 18px; 
+        font-weight: 400; 
+        margin-bottom: 20px; 
+    } 
+    /* skills */ 
+    .skills { 
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center; 
+    } 
+    .skill { 
+        background-color: secondary-color; 
+        padding: 10px 20px; 
+        border-radius: 10px; 
+        margin: 10px; 
+}
+/*Projects.html Styles*/
+/* section */ 
+.section { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px; 
+} 
+/* project */ 
+.project { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+} 
+/* project image */ 
+.project-image { 
+    width: 100%; 
+    height: 150px; 
+    border-radius: 10px 10px 0 0; 
+} 
+    /* project details */ 
+    .project-details { 
+        padding: 20px; 
+    }
+     /* project title */ 
+     .project-title { 
+        font-size: 18px;
+        font-weight: 600; 
+        margin-bottom: 10px; 
+    } 
+    /* project description */ 
+    .project-description { 
+        font-size: 16px; 
+        font-weight: 400; 
+        margin-bottom: 20px; }
+        /*Contact.html Styles*/
+        /* section */ 
+        .section { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            padding: 40px; 
+        } 
+        /* contact form */ 
+        .contact-form { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            padding: 20px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        } 
+        /* form input */ 
+        .form-input { 
+            padding: 10px; 
+            border: none; 
+            border-radius: 10px; 
+            margin: 10px; 
+        } 
+        /* form button */ 
+        .form-button { 
+            background-color: accent-color; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            border-radius: 10px; 
+            cursor: pointer; 
+        } 
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .nav-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-link{
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        
+        .nav-link:hover {
+            color: #ccc;
+        }
